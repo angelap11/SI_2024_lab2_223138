@@ -51,7 +51,7 @@ class SILab2Test {
         List<Item> items3 = createList(new Item("dva","784512", 410, 0.1f));
         assertFalse(SILab2.checkCart(items3, 40));
         // T F X
-        List<Item> items2 = createList(new Item("tri","222", 220, 0.0f));
+        List<Item> items2 = createList(new Item("tri","222", 420, 0.0f));
         assertFalse(SILab2.checkCart(items2, 200));
         //F X  X
         List<Item> items1 = createList(new Item("chetiri","123", 300, 0.0f));
